@@ -1,0 +1,96 @@
+#+AUTHOR:    Sai Gollapudi
+#+EMAIL:     saigollapudi1@gmail.com
+
+
+#+DESCRIPTION: starting a base code for a renarrator
+#+KEYWORDS: Alipi, Renarration, Sweets, NPTEL, MOOKs
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+STARTUP: hidestars
+
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME:   index.html
+
+#+INFOJS_OPT: view:info toc:t ltoc:t tdepth:1 mouse:underline buttons:0 path:style/js/org-info.js
+#+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="style/css/worg-style.css" />
+#+HTML_HEAD_EXTRA:  <link rel="stylesheet" type="text/css" href="style/css/override.css" />
+#+HTML_HEAD_EXTRA:  <link rel="icon" type="image/png" href="style/img/favicon/popl.png" />
+
+* Introduction
+This tool highlights the application of Renarration for code
+comprehension. We have an elaborate vision of using renarration as a
+technique to enable better code understandability. 
+
+The overall roadmap for this tool is still under
+construction. However, we are taking a very systematic, release based
+development strategy for implementing this tool.
+
+This document is a collection of the requirements that we envisage
+for this project. It is being documented in a staged fashion. Each
+implementation will add to the next requirement. We begin with
+release r0.
+
+* r0
+In r0 we aim to just setup the core infrastructure for a web portal
+app which will be able to upload and show code online. We are calling
+this portal page "code studio". 
+
+** r0 Requirements
+In this initial round we aim to develop:
++ a web portal application which we will call as the "code studio"
++ a user should be allowed to register. Initially this means
+  gathering something as simiple as name, email ID. Overtime this
+  registration process may become more elaborate.
++ a user should be allowed to input a URL pointing to some online code
++ the web application should fetch and display this code onscreen.
+
+* r1 
+The overall aim of r1 release is to be able to link code with
+documentation. Documentation can be something formal (as in a writted
+document) or informal (as in email, annotation text, summary etc.)
+** r1 Requirements
+In r1 we will be allowed to make CRUD modifications to the code tree
+shown in the code studio. 
+
+Through the Code Studio UI, the user is allowed to identify a node. On
+the node, the following operations CRUD (Create, Replace, Update,
+Delete) operations should be possible.
+
+For this our allowed operations at the node
+level need to be:
+*** delete node
+User selects a block of code and is allowed to delete it. 
+
+*** create node
+User selects a block of code and is allowed to add a new code, whose
+source he may just type into some text box. In a later release we may
+modify this to be text box which accepts a URL of some other code source
+
+*** update /replace / modify node
+User selects a node and is allowed to modify small portions of the
+block that was selected. This is very similar to create operation.
+
+** web page as a DOM / code tree
+We follow the model of a web page as a DOM tree. Since in this case
+the content of the web page is a code base, we expect a code tree to
+be constructed as a structure for future manipulation.
+
+* r2 
+In r2 we are focusing on developing Sweets support to enable
+persistence of the changes. 
+
+** r2 Requirements
+In this r2 release we should be able to have:
++ the studio should allow for users to annotate the code; this user
+  can be called a Renarrator 
++ the studio should also allow for users -- whom we will call here as
+  curator -- to overlay the code with (non)executable links on the
+  existing code to some existing or new documentation, other code, 
++ the annotations should be stored as Sweets in a Sweet Store (whose
+  IP address should be configurable) 
++ end user should be ab
+
+

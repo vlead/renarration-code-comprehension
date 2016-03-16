@@ -1,0 +1,68 @@
+#+AUTHOR:    Sai Gollapudi
+#+EMAIL:     saigollapudi1@gmail.com
+
+
+#+DESCRIPTION: starting a base code for a renarrator
+#+KEYWORDS: Alipi, Renarration, Sweets, NPTEL, MOOKs
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+STARTUP: hidestars
+
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME:   index.html
+
+#+INFOJS_OPT: view:info toc:t ltoc:t tdepth:1 mouse:underline buttons:0 path:style/js/org-info.js
+#+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="style/css/worg-style.css" />
+#+HTML_HEAD_EXTRA:  <link rel="stylesheet" type="text/css" href="style/css/override.css" />
+#+HTML_HEAD_EXTRA:  <link rel="icon" type="image/png" href="style/img/favicon/popl.png" />
+
+We are building a code base to enable renarration. Renarration is both
+a process and an outcome of modifying a source content with an intent
+to make it more accessible to a user community which is part of a
+different context.
+
+Web content which is already published and present on the World Wide Web
+is not always accessible to all users. Some users may have physical 
+access problems and some may have more subtler challeges like a
+language barrier (i.e. content is English but user is a non-native
+English speaker), or a cogntive-complexity barrier (i.e. content is
+more complex than the user's ability to grasp it), or a social barrier
+(i.e. the content is using examples, metaphors which are not quite
+relavent to the end-user's situation). Renarration is the act of
+re-presenting and re-purposing this existing content such that it is
+more accessible.
+
+In practce, Renarrating a web source would mean that we would need to
+"meaningfully" modify some already published web material. The
+assumption is that existing code is not available for us to modify at
+the source level -- i.e. we assume that we are not authorized to
+modify the source content. We also assume that original source code
+should not be modified permanently. That is, we are not aiming at
+loosing the original source for a renarrated target. Instead, we are
+interested in designing a system that would enable the co-existence of
+a modified source. This is our definition of renarration.
+
+If a web page is perceived as a DOM node-tree then any changes to the
+structure or content of the node-tree is a renarration.
+
+If a web page is seen as a combination of content plus interface then
+any changes to the content or to the interface is a renarration.
+
+There are already some tools that enable web page modification. Here
+are some examples:
+
+* more intro
+The application we are working on is a portal that both renarrators and also the end-users use. Let us call it the Renarrator Portal. This will be an Alipi like portal that is publically available. It is to be hosted on some IIIT-Hyd domain (maybe linked with Virtual Labs cloud and / or domain).
+
+The backend of this portal will be based on the Sweets concept. The Sweets will be stored in the Sweet Store that store location should be configurable. For now we can use the test store. 
+
+There are four types of users of our portal
++ Admin :: This person configures the system, setsup the default conditions and defines how something can be used. In our case, the SweetStore is setup by this person. 
++ Renarrator :: Renarrator is the person who creates annotations, translations etc. He / She modifies a given page.
++ Curator :: This person brings various renarrations together and puts in a location that is even more easily accessible for end-users.
++ EndUser :: End user is the person who receives, views and access the changes made by the Renarrator.
+
+As an initial implementation of this functionality we are limiting our scope to a NPTEL / MOOKs use case. Also, for our initial development, we are only focusing on text. Video and other modalities will be explored in future version of this tool.

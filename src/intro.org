@@ -1,0 +1,47 @@
+#+AUTHOR:    Sai Gollapudi
+#+EMAIL:     saigollapudi1@gmail.com
+
+
+#+DESCRIPTION: starting a base code for a renarrator
+#+KEYWORDS: Alipi, Renarration, Sweets, code comprehension
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+STARTUP: hidestars
+
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME:   index.html
+
+#+INFOJS_OPT: view:info toc:t ltoc:t tdepth:1 mouse:underline buttons:0 path:style/js/org-info.js
+#+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="style/css/worg-style.css" />
+#+HTML_HEAD_EXTRA:  <link rel="stylesheet" type="text/css" href="style/css/override.css" />
+#+HTML_HEAD_EXTRA:  <link rel="icon" type="image/png" href="style/img/favicon/popl.png" />
+
+This project is focusing on renarration of code. The project falls
+under the domain of code comprehension.  Our assumption is
+that a Maintenance Engineer is having to look at some code that is
+accessible on the web. How does this maint. engineer make sense of
+what has been written sometime ago by some other author. How to enable
+better code comprehension?
+
+Our strategy is to use renarration as a mechanism to enable code
+comprehension. We will develop this project as a Sweet Based
+renarration application. The development will be done in several
+releases r0, r1, r2... 
+
+Overall Project goal: Enable better project comprehension. Aim is to
+assist a code maintenance engineer better comprehend earlier developed
+and often poorly documented code.
+
+
+Process: We will develop the system in a series of releases labeled
+r0, r1 ... etc. We will aim to use Literate programming practices. Our
+documentation and tangled code will be housed in Bitbucket at this
+location.
+
+Stragey: Use teststore for Sweet stores. using some code studio (which
+will be a web portal application) we will enable renarrators to link
+existing code and other documentation artefacts like emails, mtg
+minutes, code review discussions, bug reports etc.

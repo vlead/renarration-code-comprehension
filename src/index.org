@@ -1,0 +1,61 @@
+#+AUTHOR:    Sai Gollapudi
+#+EMAIL:     saigollapudi1@gmail.com
+
+
+#+DESCRIPTION: starting a base code for a renarrator
+#+KEYWORDS: Alipi, Renarration, Sweets, NPTEL, MOOKs
+#+LANGUAGE:  en
+#+OPTIONS:   H:3 num:t toc:t \n:nil @:t ::t |:t ^:t -:t f:t *:t <:t
+#+OPTIONS:   TeX:t LaTeX:nil skip:nil d:nil todo:t pri:nil tags:not-in-toc
+#+EXPORT_SELECT_TAGS: export
+#+EXPORT_EXCLUDE_TAGS: noexport
+#+STARTUP: hidestars
+
+#+HTML_LINK_UP: index.html
+#+HTML_LINK_HOME:   index.html
+
+#+INFOJS_OPT: view:info toc:t ltoc:t tdepth:1 mouse:underline buttons:0 path:style/js/org-info.js
+#+HTML_HEAD:  <link rel="stylesheet" type="text/css" href="style/css/worg-style.css" />
+#+HTML_HEAD_EXTRA:  <link rel="stylesheet" type="text/css" href="style/css/override.css" />
+#+HTML_HEAD_EXTRA:  <link rel="icon" type="image/png" href="style/img/favicon/popl.png" />
+
+
+* Introduction
+#+INCLUDE: "intro.org" :minlevel 1
+
+* Requirements
+Our implementation will be done in releases named r0, r1, r2 etc. 
+
+** r0 release
+#+INCLUDE: "r0_release.org" :minlevel 1
+
+** r1 release
+#+INCLUDE: "r1_release.org" :minlevel 1
+
+** r2 release
+#+INCLUDE: "r2_release.org" :minlevel 1
+
+* Design
+** web page as a DOM tree
+We follow the model of a web page as a DOM tree. A DOM tree has 
+
+** about Sweets
+#+INCLUDE: "sweets.org" :minlevel 1
+
+** about Ontologies
+#+INCLUDE: "ontology_helper.org" :minlevel 1
+
+
+* Implementation
+
+* Validation
+
+* bibliography / references
+# this is loading up my references for citation. I am using 
+# a file named doc_references.bib but .bib not required
+# formating is plain, which can be changed
+#+BIBLIOGRAPHY: doc_references plain
+
+#+BEGIN_LaTeX
+/printbibliography
+#+END_LaTeX
