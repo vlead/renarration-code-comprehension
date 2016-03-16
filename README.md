@@ -1,24 +1,24 @@
-# renarration-phonetics
-Did you know that non-native English speakers struggle to read complex English words on printed text? Did you know that there are some universally accepted phonetic symbols that can be used inplace of conventional English alphabet that can help a novice reader in getting familiar with uncommon English words?
-
-Imagine a tool that would take existing conventional webpages (with English content) and with the click of a button help convert either a particular word or the entire page into its phonetic equivalent alaphabet. So, a novice reader would essentially request a page for review, find that it has some words that are difficult for her to follow... then, with a click of a button, request the complex words to be changed into their phonetically equivalent texts.
-
-This project __Renarration Phonetics__ is aimed at developing a tool that enables such a convertion of conventional English alphabet into its phonetic equivalent.
-
-## Renarration ##
-Renarration is word that has been invented by some of us to mean the re-purposing, re-publishing, re-narrating of existing content. When we say Renarration Phonetics, we are essentially suggesting that we aim to re-narrate the existing (earmarked) web content into its English phonetic equivalent.
-
-## goal of the project ##
-The goal of the project is to develop a restful web service based tool that would replace a earmarked portion of a web page and replace it with a phonetic symbol set.
-
-## who can engage in this project ##
-This is an open source project. Anyone with web application development interest and skill set can register and engage in the process. 
-
-The skills that are required for this project include:
- + Python/Flask based web app development
- + JavaScript front end development
- + Restful web services development
+# renarration-code-comprehension
+This project is focusing on renarration of code. The project falls under the domain of code comprehension.  Our assumption is that a Maintenance Engineer is having to look at some code that is accessible on the web. 
+ + How does this maint. engineer make sense of what has been written sometime ago by some other author? 
+ + How to enable better code comprehension?  
  
-## contact information ##
-saigollapudi1@gmail.com can be contacted for engagement in this project.
+Our strategy is to use renarration as a mechanism to enable code comprehension. 
+ 
+We will develop this project as a Sweet Based renarration application. The development will be done in several releases r0, r1, r2...   
+
+##Overall Project goal##
+Enable better project comprehension. Aim is to assist a code maintenance engineer better comprehend earlier developed and often poorly documented code.   
+
+##Process##
+We will develop this system in a series of releases labeled r0, r1 ... etc.
+
+##who can participate?##
+Any developer who is interested in web application development can participate. The skills required include:
++ Python / Flask based web application development
++ JavaScript based front-end development
++ knowledge of common coding and code maintenance practices of Software Engineering
+
+##Contact Info##
+Incase you are interested, pls contact saigollapudi1@gmail.com for further information.
 
