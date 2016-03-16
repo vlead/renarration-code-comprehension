@@ -1,42 +1,3 @@
-<<<<<<< HEAD
-# README #
-
-Under construction...
-
-We are looking to develop a code comprehension environment based on the concept of Renarration and Sweets. Goal is to help a maint. engineer better understand prior written code.
-
-More will be shared later.
-
-Sai Gollapudi
-
-This README would normally document whatever steps are necessary to get your application up and running.
-
-### What is this repository for? ###
-
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
-
-### How do I get set up? ###
-
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
-
-### Contribution guidelines ###
-
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
-=======
 # renarration-phonetics
 Did you know that non-native English speakers struggle to read complex English words on printed text? Did you know that there are some universally accepted phonetic symbols that can be used inplace of conventional English alphabet that can help a novice reader in getting familiar with uncommon English words?
 
@@ -61,4 +22,3 @@ The skills that are required for this project include:
 ## contact information ##
 saigollapudi1@gmail.com can be contacted for engagement in this project.
 
->>>>>>> 7b2dbe704db2088f1234b01e02112633e2aa37d1
